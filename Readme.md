@@ -1,4 +1,4 @@
-# [Project Name] - Embedded System Design
+Digitally Regulated Boost Converter (Arduino Uno PID)
 
 A closed-loop DC-DC Step-Up (Boost) Converter driven by an Arduino Uno R3. The system continuously samples output voltage through a $10\text{ k}\Omega + 10\text{ k}\Omega$ feedback divider, processes the reading through an Exponential Moving Average (EMA) filter, executes a $1\text{ kHz}$ discrete PID loop with anti-windup, and updates a custom $10\text{ kHz}$ Fast PWM signal on Timer 1.
 ---
